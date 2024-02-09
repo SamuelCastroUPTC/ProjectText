@@ -13,5 +13,7 @@ public class Presenter {
         System.out.println("Digite el contenido del archivo");
         String cont= namescanner.nextLine();
         texts.text(name,cont);
+        SearchFile search = new SearchFile();
+        search.searchFile("C:\\Users\\sacap\\OneDrive\\Documentos\\Samuel\\Tareas\\imagenes ia");
     }
 }
